@@ -3,13 +3,6 @@
 
 int main() {
     char body_array[20][20];
-    #if 0    
-    for(int i = 0; i < 20;++i){
-        for(int j = 0; j < 20;++j){
-            body_array[i][j] = ' ';
-        }
-    }
-    #endif
     bool cut = false;
     bool end = false;
     std::string action;
