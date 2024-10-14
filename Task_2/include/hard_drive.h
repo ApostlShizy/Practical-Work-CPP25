@@ -9,6 +9,7 @@ void save(){
     for(int i = 0; i < 8; ++i){
         out_file << *(pointer + i) << " ";
     }
+    out_file.close();
 }
 
 void load(){
@@ -23,4 +24,5 @@ void load(){
             in_file >> *(pointer + i);
         }
     }
+    in_file.close();
 }
