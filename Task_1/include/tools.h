@@ -18,6 +18,7 @@ int input() {
         std::cout<<"\nInvalid number ! ";
         return input();
     }
+    return num;
 }
 
 void scalpel (char body_array[][20]){    
